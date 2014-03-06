@@ -1,0 +1,15 @@
+name: strider-cd
+mem: 256
+
+services:
+  db: mongodb
+
+env:
+  DB_URI: $MONGODB_URL
+  SERVER_NAME: ${name}.${target-base}
+
+hooks:
+  pre-running:
+    - strider addUser -a -l stackato@stackato.com -p stackato
+
+

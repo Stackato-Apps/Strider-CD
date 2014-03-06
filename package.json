@@ -1,0 +1,15 @@
+{
+  "name": "strider-cd-stackato",
+  "version": "0.1.0",
+  "description": "Strider CD for Stackato",
+  "main": "index.js",
+  "scripts": {
+    "start": "strider"
+  },
+  "dependencies": {
+    "strider": "1.4.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
