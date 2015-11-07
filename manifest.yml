@@ -1,6 +1,6 @@
 applications:
 - name: strider-cd
-  mem: 256
+  memory: 256M
   services:
     ${name}-db:
       type: mongodb
