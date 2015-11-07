@@ -1,7 +1,7 @@
 {
   "name": "strider-cd-stackato",
   "version": "0.1.0",
-  "description": "Strider CD for Stackato",
+  "description": "Strider CD for HPE Helion Stackato",
   "main": "index.js",
   "scripts": {
     "start": "strider"

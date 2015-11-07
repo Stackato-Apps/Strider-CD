@@ -3,7 +3,7 @@
 Strider: Open Source Continuous Integration & Deployment Server.
 http://stridercd.com
 
-## Deplying to stackato
+## Deplying to HPE Helion Stackato
 
 Requires the MongoDB service to be enabled.
 
@@ -14,4 +14,4 @@ Requires the MongoDB service to be enabled.
     email: stackato@stackato.com
     password: stackato
 
-These can be configured in stackato.yml.
+These can be configured in manifest.yml.
